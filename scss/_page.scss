@@ -17,6 +17,10 @@ li {
   list-style: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 10px;
@@ -48,6 +52,10 @@ body {
 .menu {
   display: flex;
   justify-content: space-between;
+  &-mobile,
+  &-btn {
+    display: none;
+  }
   &-left {
     padding-left: 25px;
   }
